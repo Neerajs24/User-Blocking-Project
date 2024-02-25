@@ -1,0 +1,60 @@
+body { 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 50px;  
+} 
+  
+.gfg{ 
+    padding-bottom: 10px; 
+    font-size: larger; 
+    font-weight: bold; 
+    font-size: 40px; 
+    color: #308d46; 
+  } 
+  
+h2 { 
+    margin-bottom: 20px;  
+} 
+  
+#userInput { 
+    padding: 10px; 
+    margin-bottom: 10px;  
+} 
+  
+  
+/* Style for the button */
+button { 
+    padding: 10px 20px;  
+    background-color: #FF5733;  
+    color: white;  
+    border: none;  
+} 
+  
+.unblockbutton{ 
+    background-color: #24d03e;  
+    color: #FFFFFF;  
+    padding: 5px 10px;  
+    cursor: pointer; 
+} 
+  
+/* Hover effect for the button */
+button:hover { 
+    opacity: 0.8;  
+    cursor: pointer; 
+} 
+  
+/* Style for the unordered list */
+ul { 
+    list-style-type: none; /* Remove the default list styling */
+    padding: 0; /* Remove padding from the list */
+} 
+  
+/* Style for list items */
+li { 
+    display: flex; /* Use flexbox to arrange items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Align items to the right */
+    margin-bottom: 10px; /* Add some margin between items */
+}

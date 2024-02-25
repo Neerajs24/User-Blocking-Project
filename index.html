@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+    
+<head> 
+    <!-- Link the external CSS stylesheet -->
+    <link rel="stylesheet" 
+          type="text/css" href="style.css"> 
+</head> 
+<body> 
+    <div class="NK"> 
+        Neeraj Kasera 
+    </div> 
+    <h2>User Blocking Application</h2> 
+    <!-- Input field for entering a username -->
+    <input type="text" id="userInput" 
+           placeholder="Enter username" 
+           autocomplete="off"> 
+    <!-- Button to block a user  
+        (calls the blockUser() function) -->
+    <button onclick="blockUser()">Block User</button> 
+    <!-- Unordered list to display the blocked users -->
+    <ul id="blockedList"></ul> 
+    <!-- Link the external JavaScript file -->
+    <script src="script.js"></script> 
+</body> 
+    
+</html>
